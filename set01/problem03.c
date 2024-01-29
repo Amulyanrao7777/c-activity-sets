@@ -1,16 +1,16 @@
 #include <stdio.h>
 int input()
 {   int x;
-    printf("Enter a number");
-    scanf("%d", x);
+    printf("Enter a number\n");
+    scanf("%d",&x);
     return x;
 
 }
 int add(int a, int b)
 {
-    int sum;
-    sum = a+b;
-    return sum;
+    int x =0;
+    x = a+b;
+    return x;
 }
 void output(int a, int b, int sum)
 {
@@ -19,9 +19,9 @@ void output(int a, int b, int sum)
 
 int main()
 {
-    int a, b, sum;
+    int a, b, sum=0;
     a= input();
-    b=input;
+    b= input();
     sum = add(a,b);
     output(a,b,sum);
     return 0;
