@@ -1,0 +1,16 @@
+Compilation started at 1/30/2024, 10:02:35 AM
+Compilation finished at 1/30/2024, 10:02:35 AM
+Compilation started at 1/30/2024, 10:03:49 AM
+Compilation finished at 1/30/2024, 10:03:49 AM
+Compilation started at 1/30/2024, 10:04:38 AM
+Compilation finished at 1/30/2024, 10:04:39 AM
+Compilation started at 1/30/2024, 10:06:29 AM
+Compilation finished at 1/30/2024, 10:06:29 AM
+Compilation started at 1/30/2024, 10:07:21 AM
+d:\c-activity-sets\c-activity-sets\set01\problem08.c: In function 'output':
+d:\c-activity-sets\c-activity-sets\set01\problem08.c:29:5: error: expected ';' before 'for'
+     for(i=0;i<n;i++)
+     ^~~
+Compilation finished at 1/30/2024, 10:07:21 AM
+Compilation started at 1/30/2024, 10:07:27 AM
+Compilation finished at 1/30/2024, 10:07:28 AM
