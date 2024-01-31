@@ -1,0 +1,55 @@
+Compilation started at 1/30/2024, 6:34:35 PM
+Compilation finished at 1/30/2024, 6:34:37 PM
+Compilation started at 1/30/2024, 6:35:09 PM
+Compilation finished at 1/30/2024, 6:35:10 PM
+Compilation started at 1/30/2024, 6:57:17 PM
+Compilation finished at 1/30/2024, 6:57:18 PM
+Compilation started at 1/30/2024, 7:13:23 PM
+Compilation finished at 1/30/2024, 7:13:24 PM
+Compilation started at 1/30/2024, 7:13:44 PM
+Compilation finished at 1/30/2024, 7:13:44 PM
+Compilation started at 1/30/2024, 7:36:08 PM
+d:\c-activity-sets\c-activity-sets\set01\problem10.c: In function 'output':
+d:\c-activity-sets\c-activity-sets\set01\problem10.c:19:16: error: 'n' undeclared (first use in this function)
+   printf("%d", n);
+                ^
+d:\c-activity-sets\c-activity-sets\set01\problem10.c:19:16: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 1/30/2024, 7:36:08 PM
+Compilation started at 1/30/2024, 7:36:19 PM
+Compilation finished at 1/30/2024, 7:36:19 PM
+Compilation started at 1/30/2024, 7:36:39 PM
+Compilation finished at 1/30/2024, 7:36:40 PM
+Compilation started at 1/30/2024, 7:46:03 PM
+d:\c-activity-sets\c-activity-sets\set01\problem10.c: In function 'stringcompare':
+d:\c-activity-sets\c-activity-sets\set01\problem10.c:15:15: warning: comparison between pointer and integer
+     for(i=0; i<= "\0"; i++)
+               ^~
+Compilation finished at 1/30/2024, 7:46:03 PM
+Compilation started at 1/31/2024, 10:25:19 AM
+Compilation finished at 1/31/2024, 10:25:20 AM
+Compilation started at 1/31/2024, 10:25:47 AM
+Compilation finished at 1/31/2024, 10:25:48 AM
+Compilation started at 1/31/2024, 10:26:13 AM
+Compilation finished at 1/31/2024, 10:26:13 AM
+Compilation started at 1/31/2024, 10:27:05 AM
+Compilation finished at 1/31/2024, 10:27:05 AM
+Compilation started at 1/31/2024, 6:49:40 PM
+Compilation finished at 1/31/2024, 6:49:42 PM
+Compilation started at 1/31/2024, 6:50:47 PM
+Compilation finished at 1/31/2024, 6:50:47 PM
+Compilation started at 1/31/2024, 7:16:09 PM
+Compilation finished at 1/31/2024, 7:16:10 PM
+Compilation started at 1/31/2024, 7:17:08 PM
+d:\c-activity-sets\c-activity-sets\set01\problem10.c: In function 'output':
+d:\c-activity-sets\c-activity-sets\set01\problem10.c:22:1: error: expected ';' before '}' token
+ }
+ ^
+Compilation finished at 1/31/2024, 7:17:09 PM
+Compilation started at 1/31/2024, 7:17:22 PM
+Compilation finished at 1/31/2024, 7:17:22 PM
+Compilation started at 1/31/2024, 7:18:20 PM
+Compilation finished at 1/31/2024, 7:18:21 PM
+Compilation started at 1/31/2024, 7:18:29 PM
+Compilation finished at 1/31/2024, 7:18:30 PM
+Compilation started at 1/31/2024, 7:18:37 PM
+Compilation finished at 1/31/2024, 7:18:38 PM
