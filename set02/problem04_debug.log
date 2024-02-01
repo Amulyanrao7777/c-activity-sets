@@ -1,3 +1,29 @@
 +set logging enabled off
 Undefined set logging command: "enabled off".  Try "help set logging".
 +set loggin off
+gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from d:\c-activity-sets\c-activity-sets\set01\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40150d
+(gdb) r
+Starting program: d:\c-activity-sets\c-activity-sets\set01/a.exe 
+[New Thread 181636.0x31aac]
+[New Thread 181636.0x32844]
+
+Breakpoint 1, 0x0040150d in main ()
+(gdb) q
+A debugging session is active.
+
+        Inferior 1 [process 181636] will be killed.
+
+Quit anyway? (y or n) y
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
