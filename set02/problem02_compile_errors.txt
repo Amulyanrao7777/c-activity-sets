@@ -1,0 +1,9 @@
+Compilation started at 2/1/2024, 10:03:57 AM
+d:\c-activity-sets\c-activity-sets\set02\problem02.c:18:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+Compilation finished at 2/1/2024, 10:03:58 AM
+Compilation started at 2/1/2024, 10:05:11 AM
+Compilation finished at 2/1/2024, 10:05:12 AM
+Compilation started at 2/1/2024, 10:05:22 AM
+Compilation finished at 2/1/2024, 10:05:22 AM
