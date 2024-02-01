@@ -1,0 +1,54 @@
+Compilation started at 2/1/2024, 9:37:19 AM
+d:\c-activity-sets\c-activity-sets\set01\problem12.c: In function 'get_n':
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:8:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Enter n \n");
+  ^~~~~~
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:8:2: warning: incompatible implicit declaration of built-in function 'printf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:8:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:9:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d", &n);
+  ^~~~~
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:9:2: warning: incompatible implicit declaration of built-in function 'scanf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:9:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c: In function 'input_complex':
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:15:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the real part of complex number\n");
+   ^~~~~~
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:15:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:16:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%f", &c1.real);
+   ^~~~~
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:16:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c: In function 'output':
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:47:2: warning: incompatible implicit declaration of built-in function 'printf'
+  printf("The sum of %d complex nos. is %f + %fi", n, result.imaginary, result.imaginary);
+  ^~~~~~
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:47:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 2/1/2024, 9:37:21 AM
+Compilation started at 2/1/2024, 9:38:34 AM
+d:\c-activity-sets\c-activity-sets\set01\problem12.c: In function 'get_n':
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:8:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Enter n \n");
+  ^~~~~~
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:8:2: warning: incompatible implicit declaration of built-in function 'printf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:8:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:9:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d", &n);
+  ^~~~~
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:9:2: warning: incompatible implicit declaration of built-in function 'scanf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:9:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c: In function 'input_complex':
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:15:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Enter the real part of complex number\n");
+   ^~~~~~
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:15:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:16:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   scanf("%f", &c1.real);
+   ^~~~~
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:16:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+d:\c-activity-sets\c-activity-sets\set01\problem12.c: In function 'output':
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:47:2: warning: incompatible implicit declaration of built-in function 'printf'
+  printf("The sum of %d complex nos. is %f + %fi", n, result.imaginary, result.imaginary);
+  ^~~~~~
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:47:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 2/1/2024, 9:38:34 AM

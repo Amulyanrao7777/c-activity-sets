@@ -1,0 +1,24 @@
+Enter n 
+3
+Enter the real part of complex number
+2
+Enter the imaginary part of complex number
+3
+Enter the real part of complex number
+4
+Enter the imaginary part of complex number
+5
+Enter the real part of complex number
+6
+Enter the imaginary part of complex number
+7
+The sum of 3 complex nos. is 7.000000 + 7.000000i
+
+
+
+cd "d:\c-activity-sets\c-activity-sets\set02"
+
+d:\c-activity-sets\c-activity-sets\set02>gcc -g "d:\c-activity-sets\c-activity-sets\set02\problem02.c" -o "d:\c-activity-sets\c-activity-sets\set02\problem02.exe" 2>&1
+d:\c-activity-sets\c-activity-sets\set02\problem02.c:18:1: error: expected identifier or '(' before '{' token
+ {
+ ^
