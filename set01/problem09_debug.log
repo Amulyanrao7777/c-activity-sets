@@ -1,0 +1,18 @@
++b main
+Breakpoint 1 at 0x401505: file d:\c-activity-sets\c-activity-sets\set01\problem09.c, line 26.
++r
+Starting program: d:\c-activity-sets\c-activity-sets\set01/./problem09.exe 
+[New Thread 520704.0x8082c]
+[New Thread 520704.0x6c328]
+
+Breakpoint 1, main () at d:\c-activity-sets\c-activity-sets\set01\problem09.c:26
+26	    n = input();
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
++q
+A debugging session is active.
+
+	Inferior 1 [process 520704] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

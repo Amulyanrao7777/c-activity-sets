@@ -1,0 +1,8 @@
+Compilation started at 2/12/2024, 1:59:54 PM
+d:\c-activity-sets\c-activity-sets\set01\problem09.c: In function 'square_root':
+d:\c-activity-sets\c-activity-sets\set01\problem09.c:12:10: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    while(fabs(n - i_guess * i_guess) > epsilon)
+          ^~~~
+d:\c-activity-sets\c-activity-sets\set01\problem09.c:12:10: warning: incompatible implicit declaration of built-in function 'fabs'
+d:\c-activity-sets\c-activity-sets\set01\problem09.c:12:10: note: include '<math.h>' or provide a declaration of 'fabs'
+Compilation finished at 2/12/2024, 1:59:56 PM
