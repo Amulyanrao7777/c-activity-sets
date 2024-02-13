@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 float input()
 {   float x;
     printf("Enter the number \n");

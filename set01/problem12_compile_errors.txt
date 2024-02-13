@@ -52,3 +52,31 @@ d:\c-activity-sets\c-activity-sets\set01\problem12.c:47:2: warning: incompatible
   ^~~~~~
 d:\c-activity-sets\c-activity-sets\set01\problem12.c:47:2: note: include '<stdio.h>' or provide a declaration of 'printf'
 Compilation finished at 2/1/2024, 9:38:34 AM
+Compilation started at 2/12/2024, 2:36:28 PM
+d:\c-activity-sets\c-activity-sets\set01\problem12.c: In function 'add_n_complex':
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:39:16: error: 'n' redeclared as different kind of symbol
+  Complex sum , n;
+                ^
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:36:27: note: previous definition of 'n' was here
+ Complex add_n_complex(int n, Complex c[n])
+                           ^
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:40:11: error: invalid operands to binary < (have 'int' and 'Complex {aka struct _complex}')
+  for(i=0;i<n;i++)
+           ^
+Compilation finished at 2/12/2024, 2:36:28 PM
+Compilation started at 2/12/2024, 2:36:44 PM
+d:\c-activity-sets\c-activity-sets\set01\problem12.c: In function 'add_n_complex':
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:39:16: error: 'n' redeclared as different kind of symbol
+  Complex sum , n;
+                ^
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:36:27: note: previous definition of 'n' was here
+ Complex add_n_complex(int n, Complex c[n])
+                           ^
+d:\c-activity-sets\c-activity-sets\set01\problem12.c:40:11: error: invalid operands to binary < (have 'int' and 'Complex {aka struct _complex}')
+  for(i=0;i<n;i++)
+           ^
+Compilation finished at 2/12/2024, 2:36:45 PM
+Compilation started at 2/12/2024, 2:47:51 PM
+Compilation finished at 2/12/2024, 2:47:51 PM
+Compilation started at 2/12/2024, 2:49:56 PM
+Compilation finished at 2/12/2024, 2:49:56 PM

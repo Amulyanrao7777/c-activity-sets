@@ -1,4 +1,5 @@
-struct _complex {
+#include <stdio.h>
+struct _complex {	
 	float real,imaginary;
 };
 typedef struct _complex Complex;
@@ -35,16 +36,16 @@ Complex add(Complex a, Complex b)
 Complex add_n_complex(int n, Complex c[n])
 {
 	int i;
-	Complex sum , n;
+	Complex sum={0,0};
 	for(i=0;i<n;i++)
 	{
-      sum = add(c[i],c[i+1]);
+      sum = add(sum,c[i]);
 	}
 	return sum;
 }
 void output(int n, Complex c[n], Complex result)
 {
-	printf("The sum of %d complex nos. is %f + %fi", n, result.imaginary, result.imaginary);
+	printf("The sum of %d complex nos. is %f + %fi", n, result.real, result.imaginary);
 }
 int main()
 {
