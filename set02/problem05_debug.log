@@ -1,0 +1,49 @@
++b 9
+Breakpoint 1 at 0x401484: file d:\c-activity-sets\c-activity-sets\set02\problem05.c, line 9.
++r
+Starting program: d:\c-activity-sets\c-activity-sets\set02/./problem05.exe 
+[New Thread 518884.0x76608]
+[New Thread 518884.0x80540]
+
+Breakpoint 1, find_gcd (a=4, b=2) at d:\c-activity-sets\c-activity-sets\set02\problem05.c:13
+13	    while(b!=0)
++n
+15	        temp = b;
++p b
+$1 = 2
++n
+16	        b = a%b;
++p a
+$2 = 4
++p b
+$3 = 2
++n
+17	        a= temp;
++p a
+$4 = 4
++n
+13	    while(b!=0)
++p a
+$5 = 2
++p b
+$6 = 0
++n
+20	    return a;
++n
+21	}
++n
+main () at d:\c-activity-sets\c-activity-sets\set02\problem05.c:34
+34	    output(a,b,gcd);
++n
+35	}+n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 518884] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
