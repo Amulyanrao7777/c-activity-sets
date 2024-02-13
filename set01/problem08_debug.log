@@ -1,3 +1,57 @@
 +set logging enabled off
 Undefined set logging command: "enabled off".  Try "help set logging".
 +set loggin off
++b main
+Breakpoint 1 at 0x40158a: file d:\c-activity-sets\c-activity-sets\set01\problem08.c, line 36.
++r
+Starting program: d:\c-activity-sets\c-activity-sets\set01/./problem08.exe 
+[New Thread 419732.0x7f4ac]
+[New Thread 419732.0x7f824]
+
+Breakpoint 1, 0x0040158a in main () at d:\c-activity-sets\c-activity-sets\set01\problem08.c:36
+36	{
++q
+A debugging session is active.
+
+	Inferior 1 [process 419732] will be killed.
+
+Quit anyway? (y or n) Not confirmed.
++s
+37	   int n, sum=0;
++s
+38	   n = input_array_size();
++s
+input_array_size () at d:\c-activity-sets\c-activity-sets\set01\problem08.c:4
+4	    printf("Enter the array size", n);
++s
+5	    scanf("%d", &n);
++s
+6	    return n;
++s
+7	}
++s
+main () at d:\c-activity-sets\c-activity-sets\set01\problem08.c:39
+39	   int a[n];
++s
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++s
+165	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+167	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+168	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+169	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+177	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++ss
+Undefined command: "ss".  Try "help".
++s
+178	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++q
+A debugging session is active.
+
+	Inferior 1 [process 419732] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
