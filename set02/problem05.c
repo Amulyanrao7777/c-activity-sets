@@ -28,6 +28,7 @@ int main()
     int a, b, gcd;
     printf("Enter number 1 \n");
     a= input();
+    printf("Enter number 1 \n");
     b= input();
     gcd = find_gcd(a,b);
     output(a,b,gcd);
