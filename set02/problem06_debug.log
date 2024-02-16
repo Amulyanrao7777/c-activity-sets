@@ -1,0 +1,17 @@
++b 7
+Breakpoint 1 at 0x40148e: file d:\c-activity-sets\c-activity-sets\set02\problem06.c, line 7.
++r
+Starting program: d:\c-activity-sets\c-activity-sets\set02/./problem06.exe 
+[New Thread 535568.0x808ec]
+[New Thread 535568.0x742d0]
+
+Breakpoint 1, str_reverse (str=0x61febc "hello", rev_str=0x61fe58 "¨þa")
+    at d:\c-activity-sets\c-activity-sets\set02\problem06.c:9
+warning: Source file is more recent than executable.
+9	    for(i=0; str[i]!= '\0'; i++)
++n
+11	        for(int j=0; str[j]!= '\0'; j++)
++n
+13	            rev_str[j] = str[i];
++p rev_str
+$1 = 0x61fe58 "¨þa"

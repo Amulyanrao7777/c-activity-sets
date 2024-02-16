@@ -1,0 +1,63 @@
+Compilation started at 2/13/2024, 2:12:34 PM
+d:\c-activity-sets\c-activity-sets\set02\problem06.c: In function 'main':
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:22:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&str);
+                  ^
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:2:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void input_string(char *a)
+      ^~~~~~~~~~~~
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:23:17: warning: passing argument 1 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str, &rev_str);
+                 ^
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:7:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *str, char *rev_str)
+      ^~~~~~~~~~~
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:23:23: warning: passing argument 2 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str, &rev_str);
+                       ^
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:7:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *str, char *rev_str)
+      ^~~~~~~~~~~
+Compilation finished at 2/13/2024, 2:12:35 PM
+Compilation started at 2/13/2024, 2:15:59 PM
+d:\c-activity-sets\c-activity-sets\set02\problem06.c: In function 'main':
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:26:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&str);
+                  ^
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:2:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void input_string(char *a)
+      ^~~~~~~~~~~~
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:27:17: warning: passing argument 1 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str, &rev_str);
+                 ^
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:7:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *str, char *rev_str)
+      ^~~~~~~~~~~
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:27:23: warning: passing argument 2 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str, &rev_str);
+                       ^
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:7:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *str, char *rev_str)
+      ^~~~~~~~~~~
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:28:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&str, &rev_str);
+            ^
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:17:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void output(char *a, char *reverse_a)
+      ^~~~~~
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:28:18: warning: passing argument 2 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&str, &rev_str);
+                  ^
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:17:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void output(char *a, char *reverse_a)
+      ^~~~~~
+Compilation finished at 2/13/2024, 2:15:59 PM
+Compilation started at 2/13/2024, 2:17:29 PM
+Compilation finished at 2/13/2024, 2:17:29 PM
+Compilation started at 2/13/2024, 2:25:30 PM
+d:\c-activity-sets\c-activity-sets\set02\problem06.c: In function 'main':
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:25:31: error: excess elements in char array initializer
+     char str[100] = {"Hello", "World"}, rev_str[100];
+                               ^~~~~~~
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:25:31: note: (near initialization for 'str')
+Compilation finished at 2/13/2024, 2:25:30 PM
