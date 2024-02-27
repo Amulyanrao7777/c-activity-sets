@@ -61,3 +61,23 @@ d:\c-activity-sets\c-activity-sets\set02\problem06.c:25:31: error: excess elemen
                                ^~~~~~~
 d:\c-activity-sets\c-activity-sets\set02\problem06.c:25:31: note: (near initialization for 'str')
 Compilation finished at 2/13/2024, 2:25:30 PM
+Compilation started at 2/21/2024, 9:38:00 AM
+d:\c-activity-sets\c-activity-sets\set02\problem06.c: In function 'str_reverse':
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:9:13: warning: implicit declaration of function 'len' [-Wimplicit-function-declaration]
+     int a = len(str);
+             ^~~
+C:\Users\amuly\AppData\Local\Temp\ccIJttsb.o: In function `str_reverse':
+d:/c-activity-sets/c-activity-sets/set02/problem06.c:9: undefined reference to `len'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/21/2024, 9:38:01 AM
+Compilation started at 2/21/2024, 9:38:29 AM
+d:\c-activity-sets\c-activity-sets\set02\problem06.c: In function 'str_reverse':
+d:\c-activity-sets\c-activity-sets\set02\problem06.c:9:13: warning: implicit declaration of function 'len' [-Wimplicit-function-declaration]
+     int a = len(*str);
+             ^~~
+C:\Users\amuly\AppData\Local\Temp\ccWbLnMD.o: In function `str_reverse':
+d:/c-activity-sets/c-activity-sets/set02/problem06.c:9: undefined reference to `len'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/21/2024, 9:38:29 AM
+Compilation started at 2/27/2024, 11:27:30 AM
+Compilation finished at 2/27/2024, 11:27:30 AM
