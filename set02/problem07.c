@@ -7,7 +7,7 @@ typedef struct _triangle Triangle;
 Triangle input_triangle()
 {   Triangle T1;
     printf("enter the base and altitude of the triangle \n");
-    scanf("%d",&T1.base,&T1.altitude );
+    scanf("%f %f",&T1.base,&T1.altitude );
     return T1;
 }
 void find_area(Triangle *t)
